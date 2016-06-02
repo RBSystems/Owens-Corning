@@ -1,0 +1,82 @@
+[
+ObjTp=FSgntr
+Sgntr=FlashComposite
+;Increment this version when CED file format changes
+RelVrs=2
+IntStrVrs=1
+VTProeVer=6.0.02
+]
+[
+ObjTp=Symbol
+Name=Owens_VTC-RM159_AC118071_TSW-752_0_1_[01 - Main] 02.01.03 - VC On Screen_DPad.ced
+Hint=DPad (Smart Object ID=12)
+Code=2
+GUID=AC95A52B-A043-4BE0-BE45-F1819CEBA9AD
+SmplCName=Owens_VTC-RM159_AC118071_TSW-752_0_1_[01 - Main] 02.01.03 - VC On Screen_DPad.ced
+SMWRev=4.02.19
+Expand=expand_random
+HelpID=10015
+;Define the number of inputs, outputs and parameters
+MinVariableInputs=5
+MaxVariableInputs=5
+MinVariableOutputs=5
+MaxVariableOutputs=5
+NumFixedParams=1
+MinVariableInputsList2=0
+MaxVariableInputsList2=0
+MinVariableOutputsList2=0
+MaxVariableOutputsList2=0
+MinVariableInputsList3=0
+MaxVariableInputsList3=0
+MinVariableOutputsList3=0
+MaxVariableOutputsList3=0
+;Define the cues, and signal types  each input, output and parameter.
+InputCue1=[~UNUSED3~]
+InputSigType1=Digital
+OutputCue1=Up
+OutputSigType1=Digital
+InputCue2=[~UNUSED3~]
+InputSigType2=Digital
+OutputCue2=Down
+OutputSigType2=Digital
+InputCue3=[~UNUSED3~]
+InputSigType3=Digital
+OutputCue3=Left
+OutputSigType3=Digital
+InputCue4=[~UNUSED3~]
+InputSigType4=Digital
+OutputCue4=Right
+OutputSigType4=Digital
+InputCue5=[~UNUSED3~]
+InputSigType5=Digital
+OutputCue5=Center
+OutputSigType5=Digital
+ParamCue1=SmartObjectId
+ParamSigType1=Constant
+MPp=1
+Pp1=2
+CedH=2
+SmartObjId=12d
+]
+; Parameter Properties for Smart Object ID
+[
+ObjTp=Dp
+H=2
+Tp=1
+HD=TRUE
+DV=12d
+NF=1
+DNF=1
+EncFmt=0
+DVLF=1
+Sgn=0
+]
+; Smart Objects Definition section
+[
+ObjTp=CED
+H=2
+Name=Owens_VTC-RM159_AC118071_TSW-752_0_1_[01 - Main] 02.01.03 - VC On Screen_DPad.ced
+;Cedver is the version of the Smart Graphics control, not the CED file format.
+;If the control definition changes, increment this.
+CedVer=1
+]
